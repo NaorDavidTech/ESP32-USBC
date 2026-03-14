@@ -25,8 +25,8 @@ Compact 4-layer board demonstrating embedded control, USB interfacing, Wi-Fi, an
 📂 Project Files
 
 * *.PrjPcb – Main Altium project
-* *.SchDoc – Schematic files
-* *.PcbDoc – PCB layout (partial)
+* *.SchDoc – Schematic file
+* *.PcbDoc – PCB layout 
 * README.md – Project overview
 * LICENSE – MIT License
 * Custom libraries (symbols & footprints)
