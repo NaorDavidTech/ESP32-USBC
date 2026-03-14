@@ -1,58 +1,34 @@
-ESP32_DualUSB_PCB
-
-Custom PCB for an ESP32 development board featuring two USB connectors. The board supports Wi-Fi, GPIO, and peripheral interfaces, designed as a compact 4-layer prototype for learning and portfolio purposes.
+ESP32_USBC
+Custom PCB for an ESP32 development board with two USB-C connectors for power, programming, and peripheral interfaces.
 
 🌟 Project Overview
-This project was developed as part of a hardware/PCB learning project.
-It demonstrates embedded control, USB interfacing, power regulation, and high-speed signal routing in a small form-factor PCB.
+Compact 4-layer board demonstrating embedded control, USB interfacing, Wi-Fi, and power regulation.
 
 🔧 Key Features
 
-ESP32 microcontroller with Wi-Fi support
-
-Two USB ports:
-
-USB #1: Power and programming interface
-
-USB #2: Communication / external peripherals
-
-5V → 3.3V LDO regulated output for ESP32 and peripherals
-
-Controlled impedance traces (~50Ω) for high-speed signals
-
-ESD protection and decoupling capacitors for signal stability
-
-Fully routed in Altium Designer, 4-layer PCB (Top, GND, VCC, Bottom)
+* ESP32 microcontroller with Wi-Fi
+* Dual USB-C ports (power/programming & communication)
+* 5V → 3.3V regulated LDO output
+* Fully routed in Altium Designer, 4-layer PCB
+* Custom symbol and footprint libraries created for components
 
 ⚡ Applications
 
-Wi-Fi development and prototyping
-
-USB-powered embedded systems
-
-IoT and sensor interfacing
-
-Educational and portfolio projects
+* Wi-Fi development & prototyping
+* USB-powered embedded systems
+* IoT & sensor interfacing
 
 📂 Project Files
 
-*.PrjPcb – Main Altium project file
-
-*.SchDoc – Schematic files (organized by subsystems)
-
-*.PcbDoc – PCB layout (partial)
-
-README.md – Project overview (this file)
-
-LICENSE – MIT License
-
-⚠️ Note: This is a partial project. Silkscreen labeling and production-ready Gerbers are not included yet. The schematic and layout are mostly completed, demonstrating PCB design, controlled impedance, and power routing principles.
-
-📦 Downloadable ZIP Package
-
-For convenience, the available project files can be packaged as a ZIP for sharing or review:
-📥 Download ESP32_DualUSB_PCB.zip
+* *.PrjPcb – Main Altium project
+* *.SchDoc – Schematic files
+* *.PcbDoc – PCB layout (partial)
+* README.md – Project overview
+* LICENSE – MIT License
+* Custom libraries (symbols & footprints)
 
 👨‍🔧 Author
 Naor David
-📡 Wi-Fi enabled. Dual USB. Fully prototyped.
+
+
+
